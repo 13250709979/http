@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons>
+    <person>
+        <name>luo</name>
+        <age>18</age>
+    </person>
+    <person>
+        <name>sen</name>
+        <age>25</age>
+    </person>
+    <person>
+        <name>liu</name>
+        <age>18</age>
+    </person>
+    <person>
+        <name>niu</name>
+        <age>25</age>
+    </person>
+</persons>
