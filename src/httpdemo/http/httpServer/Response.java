@@ -1,4 +1,4 @@
-package httpdemo.http;
+package httpdemo.http.httpServer;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

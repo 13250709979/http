@@ -1,4 +1,4 @@
-package httpdemo.http;
+package httpdemo.http.httpServer;
 
 import java.io.*;
 import java.net.ServerSocket;

@@ -1,4 +1,4 @@
-package httpdemo.http;
+package httpdemo.http.httpServer;
 
 public class Entity {
     private String name;

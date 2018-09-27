@@ -1,5 +1,6 @@
-package httpdemo.http;
+package httpdemo.http.httpServer;
 
+import httpdemo.http.httpTest.Servlet;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -28,7 +29,7 @@ public class Xml {
         WebHandler webHandler=new WebHandler();
         try {
             saxParser.parse(Thread.currentThread().getContextClassLoader()
-                    .getResourceAsStream("httpdemo/http/web.xml"),webHandler);
+                    .getResourceAsStream("httpdemo/http/httpTest/web.xml"),webHandler);
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {

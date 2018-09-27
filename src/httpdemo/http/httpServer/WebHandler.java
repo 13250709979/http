@@ -1,4 +1,4 @@
-package httpdemo.http;
+package httpdemo.http.httpServer;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
